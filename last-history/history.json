@@ -1,0 +1,1 @@
+{"898fbadffb4a6faddc630d2c159995ae:d41d8cd98f00b204e9800998ecf8427e":{"statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1},"items":[{"uid":"aacad17dbc97afd7","reportUrl":"https://allure-examples.github.io/mocha-yarn-esm-js/2//#testresult/aacad17dbc97afd7","status":"passed","time":{"start":1727699776641,"stop":1727699776645,"duration":4}}]}}
