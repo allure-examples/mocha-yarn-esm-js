@@ -9,9 +9,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "mocha-yarn-esm-js@workspace:."
   dependencies:
-    allure-js-commons: "npm:^3.0.3"
-    allure-mocha: "npm:^3.0.3"
-    mocha: "npm:^10.7.3"
+    allure-js-commons: "npm:^3.0.6"
+    allure-mocha: "npm:^3.0.6"
+    mocha: "npm:^10.8.2"
   languageName: unknown
   linkType: soft
 
@@ -84,29 +84,28 @@ __metadata:
   languageName: node
   linkType: hard
 
-"allure-js-commons@npm:3.0.3, allure-js-commons@npm:^3.0.3":
-  version: 3.0.3
-  resolution: "allure-js-commons@npm:3.0.3"
+"allure-js-commons@npm:3.0.6, allure-js-commons@npm:^3.0.6":
+  version: 3.0.6
+  resolution: "allure-js-commons@npm:3.0.6"
   dependencies:
     md5: "npm:^2.3.0"
-    properties: "npm:^1.2.1"
   peerDependencies:
-    allure-playwright: 3.0.3
+    allure-playwright: 3.0.6
   peerDependenciesMeta:
     allure-playwright:
       optional: true
-  checksum: 10c0/f12e3da4d68f7dc33968dbaf1eea63f727c4730d318556c3d4f7edab829e9282236c7b05603d5fac211f095e2cd324649a64f91cefdc3c363037c9b55fcf42c6
+  checksum: 10c0/e55d752ea630821c4895064be725f4c9069d8f9e462e6f65190b9645f7f41a1a4d1b25ea093378828ec74f681cca990c017561317307b1cbdfe67400b98aa044
   languageName: node
   linkType: hard
 
-"allure-mocha@npm:^3.0.3":
-  version: 3.0.3
-  resolution: "allure-mocha@npm:3.0.3"
+"allure-mocha@npm:^3.0.6":
+  version: 3.0.6
+  resolution: "allure-mocha@npm:3.0.6"
   dependencies:
-    allure-js-commons: "npm:3.0.3"
+    allure-js-commons: "npm:3.0.6"
   peerDependencies:
     mocha: ">=6.2.0"
-  checksum: 10c0/9d8494da451cd2477590f86b9f465715d411aa735a6f4ccf5fbd6a131a8f1c915775874411b34332f69408dd98f25524a93062a493404c88c3078c69975d88d9
+  checksum: 10c0/1aded543a5a20e2e1bbe62123bb5e37ca4b0a9ffe20e9de3bf667c5a9a2dbdbe053c33699d7a40b4f066d27bcde0507cf7f3f6226dad0b76811b32fae375965f
   languageName: node
   linkType: hard
 
@@ -923,9 +922,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mocha@npm:^10.7.3":
-  version: 10.7.3
-  resolution: "mocha@npm:10.7.3"
+"mocha@npm:^10.8.2":
+  version: 10.8.2
+  resolution: "mocha@npm:10.8.2"
   dependencies:
     ansi-colors: "npm:^4.1.3"
     browser-stdout: "npm:^1.3.1"
@@ -950,7 +949,7 @@ __metadata:
   bin:
     _mocha: bin/_mocha
     mocha: bin/mocha.js
-  checksum: 10c0/76a205905ec626262d903954daca31ba8e0dd4347092f627b98b8508dcdb5b30be62ec8f7a405fab3b2e691bdc099721c3291b330c3ee85b8ec40d3d179f8728
+  checksum: 10c0/1f786290a32a1c234f66afe2bfcc68aa50fe9c7356506bd39cca267efb0b4714a63a0cb333815578d63785ba2fba058bf576c2512db73997c0cae0d659a88beb
   languageName: node
   linkType: hard
 
@@ -962,9 +961,9 @@ __metadata:
   linkType: hard
 
 "negotiator@npm:^0.6.3":
-  version: 0.6.3
-  resolution: "negotiator@npm:0.6.3"
-  checksum: 10c0/3ec9fd413e7bf071c937ae60d572bc67155262068ed522cf4b3be5edbe6ddf67d095ec03a3a14ebf8fc8e95f8e1d61be4869db0dbb0de696f6b837358bd43fc2
+  version: 0.6.4
+  resolution: "negotiator@npm:0.6.4"
+  checksum: 10c0/3e677139c7fb7628a6f36335bf11a885a62c21d5390204590a1a214a5631fcbe5ea74ef6a610b60afe84b4d975cbe0566a23f20ee17c77c73e74b80032108dea
   languageName: node
   linkType: hard
 
@@ -1094,13 +1093,6 @@ __metadata:
     err-code: "npm:^2.0.2"
     retry: "npm:^0.12.0"
   checksum: 10c0/9c7045a1a2928094b5b9b15336dcd2a7b1c052f674550df63cc3f36cd44028e5080448175b6f6ca32b642de81150f5e7b1a98b728f15cb069f2dd60ac2616b96
-  languageName: node
-  linkType: hard
-
-"properties@npm:^1.2.1":
-  version: 1.2.1
-  resolution: "properties@npm:1.2.1"
-  checksum: 10c0/c6ed008981dbe66e5d622064559166924d6bd56a0b9c4dcb41889457c47467683bda4091c69c348bf703051f95d8fa53cac4dc658172f9f752c00b8622dbc708
   languageName: node
   linkType: hard
 
